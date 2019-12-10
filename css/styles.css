@@ -1,0 +1,431 @@
+*{
+	box-sizing: border-box;
+}
+
+html,body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+/** === LAYOUT ===*/
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+
+/** === HEADER ===*/
+
+header {
+	background-color: #002e5b;
+	color: white;
+	font-size:.7em;
+	padding: .5em;
+	height: 3em;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icono {
+	color: #fdd428;
+	margin-right: .4em;
+}
+
+/** === NAV ===*/
+
+nav{
+	background-color: white;
+	height: 3em;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-links li {
+	list-style: none;
+	display: inline;
+	margin-right: 1.2em;
+	font-size: .8em;
+}
+.nav-links a{
+	font-weight: 700;
+}
+
+.nav-links a:link{
+	color: #768fa7;
+}
+
+.nav-links a:hover{
+	color: #002e5b;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	width: 15%;
+	object-fit: scale-down;
+	padding: .5em;
+}
+
+/** === HERO ===*/
+
+.hero {
+	height: 400px;
+	background-image: linear-gradient(to bottom, rgba(99, 112, 163, 0.02), rgba(7,33,70, 0.3)), url("../img/slide-one.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+	text-align: center;
+}
+
+.hero-title {
+	color: #002e5b;
+	line-height: .7em;
+	float:left;
+	margin: 7em 2em;
+}
+
+.hero h1 {
+	font-size: 5em;
+	text-align:left;
+	text-transform: uppercase;
+}
+
+
+.hero h2 {
+	font-size: 2em;
+	text-align:left;
+}
+
+
+
+/** === BUSINESS ===*/
+.business-flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.business {
+	background-color: #002e5b;
+	padding: 3em 1.5em;
+}
+
+.business h2 {
+	color: white;
+}
+
+.business p {
+	color: #768fa7;
+	font-size: .9em;
+}
+.business-text {
+	width: 60vw;
+}
+
+.btn-yellow {
+	background-color: #fdd428;
+	padding:.8em 1.2em;
+	border:none;
+	color: #002e5b;
+	width: 10em;
+	height: 3em;
+}
+/** === SERVICES ===*/
+
+.services h2 {
+	margin: 2em;
+}
+.services {
+	color: #002e5b;
+	text-align: center;
+}
+
+.services p {
+	color:#768fa7;
+	text-align: left;
+}
+
+.service-list{
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-template-rows: auto auto;
+	grid-gap: 5%;
+	margin: 3em auto;
+
+}
+
+ul {
+	list-style-type: none;
+}
+
+.service-list i {
+	font-size: 1.6em;
+  width: 2.6em;
+  height: 2.6em;
+  text-align: center;
+  line-height: 2.6em;
+  background: #002e5b;
+  color: gold;
+  border-radius: 50%;
+}
+
+.service p {
+	font-size: .8em;
+	text-align: justify;
+}
+/** === ORGANIZATION ===*/
+
+.organization {
+	background-color: #f6f6f6;
+	color: #768fa7;
+	text-align: center;
+	padding: 2em 2em;
+}
+
+.organization h2 {
+	color: #002e5b;
+
+}
+
+.grids {
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+}
+
+.grids i {
+	margin-right: 1em;
+	color: #002e5b;
+}
+
+.grid-left {
+	width: 50%;
+	font-size: .9em;
+}
+.grid-right {
+	width: 50%;
+	object-fit: contain;
+	padding-left: 2em;
+}
+
+
+/** === PENULTIMO ===*/
+
+.tres {
+	background-color: white;
+}
+
+.tres-flex {
+	display: flex;
+	flex-direction: row;
+	margin: 2em;
+}
+
+.oneOfThree {
+	width: 30%;
+	font-size: .8em;
+	text-align: justify;
+	margin-bottom: 4em;
+	margin-left: 2em;
+}
+
+.oneOfThree h2 {
+	color: #002e5b;
+	text-align: center;
+}
+
+.oneOfThree img{
+	width:15%;
+	border-radius:50%;
+	object-fit: scale-down;
+	margin-right: 2em;
+}
+
+.avatar {
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-size: .8em;
+}
+
+.avatar-text h4 {
+	color: #002e5b;
+	font-size: 1.6em;
+	font-weight: 400;
+}
+
+.avatar-text  {
+	color: gray;
+	font-size: 1.2em;
+	line-height: .8em;
+}
+
+.testimonial {
+	background-color: #efefef;
+	padding: 2em;
+	position: relative;
+}
+
+
+.testimonial:before {
+	content: "";
+	position: absolute;
+	bottom: 0em;
+	right: 0;
+	border-width: 2em 2em 0 0;
+	border-style: solid;
+	border-color: gray #fff;
+  }
+/** === FOOTER ===*/
+
+footer {
+ background-color: #002e5b;
+ height: auto;
+ color: #768fa7;
+}
+
+footer h3 {
+	color: gold;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 2em;
+}
+.oneOfFour {
+	font-size: .8em;
+	margin-right: 2em;
+	text-align: center;
+}
+
+.copy {
+	font-size: .7em;
+}
+
+.social {
+	margin-top: 1em;
+
+}
+.soc-icon {
+	border: 1px solid gold;
+	padding: .5em;
+	margin: 1em .5em;
+	color: white;
+}
+
+
+.collapsible {
+	background-color: white;
+	color: grey;
+	cursor: pointer;
+	padding: .4em;
+	width: 100%;
+	border: 1px solid gray;
+	text-align: left;
+	outline: none;
+	font-size: 1em;
+	font-weight: 700;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: gold;
+  }
+  
+  .content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: white;
+  }
+
+
+@media only screen and (max-width: 700px) {
+	.header {
+		font-size: .8em;
+	}
+  
+	nav {
+		font-size: .5em;
+	}
+  
+	.hero {
+	  height: 40vh;
+	}
+  
+	.hero-title h1 {
+		font-size: 3em;
+		margin: 0 auto;
+		line-height: 1em;
+	}
+  
+	.hero-title h2 {
+		font-size: 1em;
+	}
+  
+	.business {
+		padding: 1em;
+	}
+  
+	.business-flex {
+		flex-direction: column;
+		width: 90%;
+	}
+
+	.service-list {
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+	}
+
+	.service {
+		width: 90%
+	}
+
+	.grids {
+	flex-direction: column;
+	align-items: center;
+	}
+
+	.grid-left  {
+		width: 90%;
+	}
+
+	.tres-flex {
+		flex-direction: column;
+	}
+
+	.oneOfThree {
+		width: 90%;
+	}
+
+	footer {
+		height: auto;
+		padding: 0 1em;
+	}
+	
+	.footer {
+	flex-direction: column;
+	}
+
+	.oneOfFour {
+		width: 90%;
+	}
+
+	}
