@@ -192,6 +192,7 @@ a {
 	color: #002E5B;
 	width: 10em;
 	height: 3em;
+	margin: 2em 1em;
 }
 
 /** === SERVICES ===*/
@@ -428,7 +429,7 @@ footer h3 {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 930px) {
 
 	.grids {
 		flex-direction: column;
@@ -440,7 +441,7 @@ footer h3 {
 	}
 
 	.list-org {
-		margin: 3em;
+		margin: 2em;
 	}
 
 	.tres-flex {
@@ -451,94 +452,104 @@ footer h3 {
 		width: 90%;
 	}
 
+}
 
-	@media only screen and (max-width: 500px) {
-		.header {
-			font-size: 0.8em;
-		}
-
-		nav {
-			font-size: 0.5em;
-		}
-
-		.hero {
-			height: 40vh;
-		}
-
-		.hero-title h1 {
-			font-size: 3em;
-			margin: 0 auto;
-			line-height: 1em;
-		}
-
-		.hero-title h2 {
-			font-size: 1em;
-		}
-
-		.business {
-			padding: 1em;
-		}
-
-		.business-flex {
-			flex-direction: column;
-			width: 90%;
-		}
-
-		.service-list {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			padding: 2em 0;
-			margin: 0 auto;
-			width: 90%;
-		}
-
-		.service {
-			width: 90%;
-			margin: 0 auto;
-		}
-
-		.grids {
-			flex-direction: column;
-			align-items: center;
-		}
-
-		.grid-left {
-			width: 90%;
-		}
-
-		.grid-right {
-			width: 90vw;
-		}
-
-		.tres-flex {
-			flex-direction: column;
-		}
-
-		.oneOfThree {
-			width: 90%;
-		}
-
-		footer {
-			height: auto;
-			padding: 0 1em;
-		}
-
-		.footer {
-			flex-direction: column;
-		}
-
-		.oneOfFour {
-			width: 90%;
-		}
-
-		.very-last {
-			display: flex;
-			flex-direction: column;
-		}
-
-		.soc-icon {
-			margin: 1em .2em;
-		}
-
+@media only screen and (max-width: 500px) {
+	.header {
+		font-size: 0.8em;
 	}
+
+	nav {
+		font-size: 0.5em;
+	}
+
+	.hero {
+		height: 40vh;
+	}
+
+
+	.list-org {
+		margin: 2em 1em 1em 1em;
+	}
+
+	.hero-title h1 {
+		font-size: 3em;
+		margin: 0 auto;
+		line-height: 1em;
+	}
+
+	.hero-title h2 {
+		font-size: 1em;
+	}
+
+	.business {
+		padding: 1em;
+	}
+
+	.business-flex {
+		flex-direction: column;
+		width: 90%;
+	}
+
+	.business-text {
+		width: 80vw;
+	}
+
+	.service-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2em 0;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.service {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.grids {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.grid-left {
+		width: 90%;
+	}
+
+	.grid-right {
+		width: 90vw;
+	}
+
+	.tres-flex {
+		flex-direction: column;
+	}
+
+	.oneOfThree {
+		width: 90%;
+	}
+
+	footer {
+		height: auto;
+		padding: 0 1em;
+	}
+
+	.footer {
+		flex-direction: column;
+	}
+
+	.oneOfFour {
+		width: 90%;
+	}
+
+	.very-last {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.soc-icon {
+		margin: 1em .2em;
+	}
+
+}
