@@ -20,7 +20,7 @@ body {
 /** === HEADER ===*/
 
 header {
-	background-color: #002E5B;
+	background-color: #386FA4;
 	color: white;
 	font-size: 0.7em;
 	padding: 0.5em;
@@ -40,47 +40,47 @@ header {
 
 /** === NAV ===*/
 
-nav {
+.navigation {
 	background-color: white;
 	height: 3em;
 }
 
-.nav {
+nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.nav-links li {
+.menu li {
 	list-style: none;
 	display: inline;
 	margin-right: 1.2em;
 	font-size: 0.8em;
 }
 
-.nav-links a {
+.menu a {
 	font-weight: 700;
 }
 
-.nav-links a:link,
+.menu a:link,
 a:visited,
 a:active {
 	color: #768fa7;
 }
 
-.nav-links a:hover {
-	color: #002E5B;
+.menu a:hover {
+	color: #386FA4;
 }
 
 a {
 	text-decoration: none;
 }
 
+
 .logo {
-	width: 15%;
+	height: 2.5em;
 	object-fit: scale-down;
-	padding: 0.5em;
 }
 
 .dropbtn {
@@ -132,8 +132,8 @@ a {
 .hero {
 	height: 400px;
 	background-image: linear-gradient(to bottom,
-			#a2a1ad4d,
-			rgba(19, 20, 27, 0.4)),
+			#6261694d,
+			rgba(19, 20, 27, 0.521)),
 		url('../img/slide-one.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -142,7 +142,7 @@ a {
 }
 
 .hero-title {
-	color: #002E5B;
+	color: white;
 	line-height: 0.7em;
 	float: left;
 	margin: 7em 2em;
@@ -168,7 +168,7 @@ a {
 }
 
 .business {
-	background-color: #002E5B;
+	background-color: #386FA4;
 	padding: 3em 1.5em;
 }
 
@@ -189,7 +189,7 @@ a {
 	background-color: #fdd428;
 	padding: 0.8em 1.2em;
 	border: none;
-	color: #002E5B;
+	color: #386FA4;
 	width: 10em;
 	height: 3em;
 	margin: 2em 1em;
@@ -202,7 +202,7 @@ a {
 }
 
 .services {
-	color: #002E5B;
+	color: #386FA4;
 	text-align: center;
 }
 
@@ -229,7 +229,7 @@ ul {
 	height: 2.6em;
 	text-align: center;
 	line-height: 2.6em;
-	background: #002E5B;
+	background: #386FA4;
 	color: gold;
 	border-radius: 50%;
 }
@@ -249,7 +249,7 @@ ul {
 }
 
 .organization h2 {
-	color: #002E5B;
+	color: #386FA4;
 }
 
 .grids {
@@ -260,7 +260,7 @@ ul {
 
 .grids i {
 	margin-right: 1em;
-	color: #002E5B;
+	color: #386FA4;
 }
 
 .grid-left {
@@ -305,7 +305,7 @@ ul {
 }
 
 .oneOfThree h2 {
-	color: #002E5B;
+	color: #386FA4;
 	text-align: center;
 }
 
@@ -324,7 +324,7 @@ ul {
 }
 
 .avatar-text h4 {
-	color: #002E5B;
+	color: #386FA4;
 	font-size: 1.6em;
 	font-weight: 400;
 	margin-bottom: 0.5em;
@@ -385,7 +385,7 @@ ul {
 /** === FOOTER ===*/
 
 footer {
-	background-color: #002E5B;
+	background-color: #386FA4;
 	height: auto;
 	color: #ffffffe5;
 	padding: 2em;

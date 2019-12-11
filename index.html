@@ -3,301 +3,382 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-    <html
-    class="no-js"> <!--<![endif]-->
+<html class="no-js">
+<!--<![endif]-->
 
-    <head>
-        <meta charset="utf-8">
-        <meta content="IE=edge" http-equiv="X-UA-Compatible">
-        <title>Acura</title>
-        <meta content="" name="description">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link href="./css/styles.css" rel="stylesheet">
-        <script crossorigin="anonymous" src="https://kit.fontawesome.com/0be298d007.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Acura</title>
+    <meta content="" name="description" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="./css/styles.css" rel="stylesheet" />
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/0be298d007.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet" />
+</head>
 
-    <body>
-        <!--[if lt IE 7]>
-                                                                        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-                                                                        <![endif]-->
+<body>
+    <!--[if lt IE 7
+			]><p class="browsehappy">
+				You are using an <strong>outdated</strong> browser. Please
+				<a href="#">upgrade your browser</a> to improve your experience.
+			</p><!
+		[endif]-->
 
-        <header>
-            <div class="wrapper header">
-                <div class="schedule">
-                    <i class="fas fa-clock icono"></i>Mon - Sat 8.00 - 18.00. Sunday CLOSED
-                </div>
-                <address>
-                    <i class="fas fa-phone icono"></i>Tel No. (+001) 123-456-789</address>
+    <header>
+        <div class="wrapper header">
+            <div class="schedule">
+                <i class="fas fa-clock icono"></i>Mon - Sat 8.00 - 18.00.
+                Sunday CLOSED
             </div>
-        </header>
-
-        <div class="navigation">
-            <div class="wrapper nav">
-                <img alt="logo" class="logo" src="img/akura-logo.png"/>
-                <nav>
-                    <ul class="nav-links">
-                        <li>
-                            <a href="#inicio">HOME</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropbtn" href="#business">ABOUT US
-                            </a>
-                            <div class="dropdown-content">
-                                <a href="#">Company</a>
-                                <a href="#">Our Team</a>
-                                <a href="#">News</a>
-                                <a href="#">Investors</a>
-                            </div>
-                        </li>
-                        <li>
-                            <a href="#services">SERVICES</a>
-
-                        </li>
-                        <li>
-                            <a href="#organization">PORTFOLIO</a>
-                        </li>
-                        <li>
-                            <a href="#programes">PRICING</a>
-                        </li>
-                        <li>
-                            <a href="#footer">CONTACT
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+            <address>
+                <i class="fas fa-phone icono"></i>Tel No. (+001) 123-456-789
+            </address>
         </div>
+    </header>
 
-        <section class="hero">
-            <div class=" wrapper">
-                <hgroup class="hero-title">
-                    <h1>Creative</h1>
-                    <h2>We Create The Oportunities</h2>
-                </hgroup>
+    <div class="navigation">
+        <nav class="wrapper">
+            <div>
+                <a href="#"><img alt="logo" class="logo" src="img/akura-logo.png" /></a>
             </div>
-        </section>
+            <ul class="menu">
+                <li class="dropdown item">
+                    <a class="dropbtn" href="#business">ABOUT US </a>
+                    <div class="dropdown-content">
+                        <a href="#">Company</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">News</a>
+                        <a href="#">Investors</a>
+                    </div>
+                </li>
+                <li class="item">
+                    <a href="#services">SERVICES</a>
+                </li>
+                <li class="item">
+                    <a href="#organization">PORTFOLIO</a>
+                </li>
+                <li class="item">
+                    <a href="#programes">PRICING</a>
+                </li>
+                <li class="item">
+                    <a href="#footer">CONTACT </a>
+                </li>
+                <li class="toggle" onclick="toggle()">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-        <section class="business" id="business">
-            <div class="wrapper business-flex">
-                <div class="business-text">
-                    <h2>
-                        BEST BUSINESS CONSULTING
-                    </h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti
-                    </p>
-                </div>
-                <button class="btn-yellow">Read More</button>
-            </div>
-        </section>
+    <section class="hero">
+        <div class=" wrapper">
+            <hgroup class="hero-title">
+                <h1>Creative</h1>
+                <h2>We Create The Oportunities</h2>
+            </hgroup>
+        </div>
+    </section>
 
-        <section class="services" id="services">
-            <div class="wrapper">
+    <section class="business" id="business">
+        <div class="wrapper business-flex">
+            <div class="business-text">
                 <h2>
-                    OUR SERVICES
-                </h2>
-                <div>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis.
-                </div>
-                <div class="service-list">
-                    <div class="service">
-
-                        <i class="fas fa-bell"></i>
-                        <h3>Consulting</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-
-                    </div>
-                    <div class="service">
-
-                        <i class="fas fa-hdd"></i>
-                        <h3>Strategy</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-
-                    </div>
-                    <div class="service">
-
-                        <i class="fas fa-lightbulb"></i>
-                        <h3>Analysis</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-
-                    </div>
-                    <div class="service">
-
-                        <i class="fas fa-code"></i>
-                        <h3>Investment</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-
-                    </div>
-                    <div class="service">
-
-                        <i class="fas fa-arrows-alt"></i>
-                        <h3>Creative</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur</p>
-                    </div>
-                    <div class="service">
-
-                        <i class="fab fa-html5"></i>
-                        <h3>24/7 Support</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt</p>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="organization" id="organization">
-            <div class="wrapper">
-                <h2>
-                    OUR ORGANIZATION
+                    BEST BUSINESS CONSULTING
                 </h2>
                 <p>
-                    Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Dolores quae porro consequatur aliquam, incidunt
+                    eius magni provident, doloribus omnis minus temporibus
+                    perferendis nesciunt quam repellendus nulla nemo ipsum
+                    odit corrupti
+                </p>
+            </div>
+            <button class="btn-yellow">Read More</button>
+        </div>
+    </section>
 
-                <div class="grids">
-                    <div class="grid-left">
-                        <p>Grids is a responsive Multipurpose Template. Lorem ipsum dolor sit amet, consectetur adipiscing volutpat.</p>
-                        <ul class="list-org">
-                            <li>
-                                <i class="fas fa-chevron-circle-right"></i>Lorem ipsum dolor sit amet</li>
-                            <li>
-                                <i class="fas fa-chevron-circle-right"></i>consectetur adipiscing eli</li>
-                            <li>
-                                <i class="fas fa-chevron-circle-right"></i>Curabitur aliquet quam id dui</li>
-                            <li>
-                                <i class="fas fa-chevron-circle-right"></i>Donec sollicitudin molestie malesuada.</li>
-                        </ul>
-                        <button class="btn-yellow">Learn More</button>
-                    </div>
-                    <img alt="picturesbjd" class="grid-right" src="img/guy.png"/>
+    <section class="services" id="services">
+        <div class="wrapper">
+            <h2>
+                OUR SERVICES
+            </h2>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolores quae porro consequatur aliquam, incidunt eius magni
+                provident, doloribus omnis.
+            </div>
+            <div class="service-list">
+                <div class="service">
+                    <i class="fas fa-bell"></i>
+                    <h3>Consulting</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Dolores quae porro consequatur aliquam,
+                        incidunt
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-hdd"></i>
+                    <h3>Strategy</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Dolores quae porro consequatur aliquam,
+                        incidunt
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Analysis</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Dolores quae porro consequatur aliquam,
+                        incidunt
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-code"></i>
+                    <h3>Investment</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Dolores quae porro consequatur aliquam,
+                        incidunt
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-arrows-alt"></i>
+                    <h3>Creative</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Dolores quae porro consequatur
+                    </p>
+                </div>
+                <div class="service">
+                    <i class="fab fa-html5"></i>
+                    <h3>24/7 Support</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Dolores quae porro consequatur aliquam,
+                        incidunt
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <section class="organization" id="organization">
+        <div class="wrapper">
+            <h2>
+                OUR ORGANIZATION
+            </h2>
+            <p>
+                Curabitur aliquet quam id dui posuere blandit. Donec
+                sollicitudin molestie malesuada Pellentesque ipsum id orci
+                porta dapibus. Vivamus suscipit tortor eget felis porttitor
+                volutpat.
+            </p>
 
-        <section class="tres" id="programes">
-            <div class="wrapper">
-                <div class="tres-flex">
-                    <div class="oneOfThree">
-                        <h2>Programes</h2>
-                        <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
-                    </div>
-                    <div class="oneOfThree">
+            <div class="grids">
+                <div class="grid-left">
+                    <p>
+                        Grids is a responsive Multipurpose Template. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing
+                        volutpat.
+                    </p>
+                    <ul class="list-org">
+                        <li>
+                            <i class="fas fa-chevron-circle-right"></i>Lorem
+                            ipsum dolor sit amet
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-circle-right"></i>consectetur adipiscing eli
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-circle-right"></i>Curabitur aliquet quam id dui
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-circle-right"></i>Donec
+                            sollicitudin molestie malesuada.
+                        </li>
+                    </ul>
+                    <button class="btn-yellow">Learn More</button>
+                </div>
+                <img alt="picturesbjd" class="grid-right" src="img/guy.png" />
+            </div>
+        </div>
+    </section>
 
-                        <h2>Latest News</h2>
+    <section class="tres" id="programes">
+        <div class="wrapper">
+            <div class="tres-flex">
+                <div class="oneOfThree">
+                    <h2>Programes</h2>
+                    <p>
+                        Sed ut perspiciaatis unde omnis iste natus error sit
+                        voluptatem accusantium doloremque laudantium, totam
+                        rem aperiam, eaque ipsa quae ab illo inventore
+                        veritatis et quasi architecto beatae vitae dicta
+                        sunt explicabo. Nemo enim ipsam voluptatem quia
+                        voluptas sit aspernatur.
+                    </p>
+                </div>
+                <div class="oneOfThree">
+                    <h2>Latest News</h2>
 
-                        <button class="collapsible">
-                            Accordion Heading Text Item #1</button>
-                        <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                        <button class="collapsible">Accordion Heading Text Item #2</button>
-                        <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                        <button class="collapsible">Accordion Heading Text Item #3</button>
-                        <div class="content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-
-
-                    </div>
-
-                    <div class="oneOfThree">
-                        <h2>Testimonials</h2>
-                        <p class="testimonial">
-                            Lorem ipsum dolor met consectetur adipisicing. Aorem psum dolor met consectetur adipisicing sit amet, consectetur adipisicing elit, of them jean shorts sed magna aliqua. Lorem ipsum dolor met.
+                    <button class="collapsible">
+                        Accordion Heading Text Item #1
+                    </button>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
                         </p>
-                        <div class="avatar">
-                            <img alt="mark" src="img/mark.jpg"/>
-                            <div class=" avatar-text">
-                                <h4>Mark Cooper</h4>
-                                <p>Technical Director</p>
-                            </div>
-                        </div>
+                    </div>
+                    <button class="collapsible">
+                        Accordion Heading Text Item #2
+                    </button>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
+                        </p>
+                    </div>
+                    <button class="collapsible">
+                        Accordion Heading Text Item #3
+                    </button>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="oneOfThree">
+                    <h2>Testimonials</h2>
+                    <p class="testimonial">
+                        Lorem ipsum dolor met consectetur adipisicing. Aorem
+                        psum dolor met consectetur adipisicing sit amet,
+                        consectetur adipisicing elit, of them jean shorts
+                        sed magna aliqua. Lorem ipsum dolor met.
+                    </p>
+                    <div class="avatar">
+                        <img alt="mark" src="img/mark.jpg" />
+                        <div class=" avatar-text">
+                            <h4>Mark Cooper</h4>
+                            <p>Technical Director</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-
-        <footer>
-            <div class="wrapper" id="footer">
-                <div class="footer">
-                    <div class="oneOfFour">
-                        <h3>Our Contact</h3>
+    <footer>
+        <div class="wrapper" id="footer">
+            <div class="footer">
+                <div class="oneOfFour">
+                    <h3>Our Contact</h3>
+                    <div>
+                        <strong>Bootstrap company Inc</strong>
                         <div>
-                            <strong>Bootstrap company Inc</strong>
-                            <div>
-                                <p>JC Main Road, Near Silnile tower
-                                </p>Pin-21542 NewYork US.
-                                <p>(123) 456-789 - 1255-12584</p>
-                                <p>email@domainname.com</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="oneOfFour">
-                        <h3>Quick Links</h3>
-                        <div>
-                            <p>Latest Events</p>
-                            <p>Terms and conditions</p>
-                            <p>Privacy policy</p>
-                            <p>Career</p>
-                            <p>Contact us</p>
-
-                        </div>
-                    </div>
-
-                    <div class="oneOfFour">
-                        <h3>Latest posts</h3>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p>Pellentesque et pulvinar enim. Quisque at tempor ligula</p>
-                            <p>Natus error sit voluptatem accusantium doloremque</p>
-                        </div>
-                    </div>
-
-                    <div class="oneOfFour">
-                        <h3>Recent News</h3>
-                        <div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p>Pellentesque et pulvinar enim. Quisque at tempor ligula</p>
-                            <p>Natus error sit voluptatem accusantium doloremque</p>
+                            <p>JC Main Road, Near Silnile tower</p>
+                            Pin-21542 NewYork US.
+                            <p>(123) 456-789 - 1255-12584</p>
+                            <p>email@domainname.com</p>
                         </div>
                     </div>
                 </div>
-                <div class="very-last">
-                    <small class="copy">© Bootstrap Template 2017 All right reserved. Template By
-                        <a href="https://webthemez.com/free-bootstrap-templates/">WebThemez</a>
-                    </small>
 
-                    <div class="social">
-                        <a href="">
-                            <i class="fab fa-facebook-f soc-icon"></i>
-                        </a>
-                        <a href="">
-                            <i class="fab fa-twitter soc-icon"></i>
-                        </a>
-                        <a href="">
-                            <i class="fab fa-linkedin-in soc-icon"></i>
-                        </a>
-                        <a href="">
-                            <i class="fab fa-pinterest-p soc-icon"></i>
-                        </a>
-                        <a href="">
-                            <i class="fab fa-google-plus-g soc-icon"></i>
-                        </a>
+                <div class="oneOfFour">
+                    <h3>Quick Links</h3>
+                    <div>
+                        <p>Latest Events</p>
+                        <p>Terms and conditions</p>
+                        <p>Privacy policy</p>
+                        <p>Career</p>
+                        <p>Contact us</p>
+                    </div>
+                </div>
+
+                <div class="oneOfFour">
+                    <h3>Latest posts</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
+                        </p>
+                        <p>
+                            Pellentesque et pulvinar enim. Quisque at tempor
+                            ligula
+                        </p>
+                        <p>
+                            Natus error sit voluptatem accusantium
+                            doloremque
+                        </p>
+                    </div>
+                </div>
+
+                <div class="oneOfFour">
+                    <h3>Recent News</h3>
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
+                        </p>
+                        <p>
+                            Pellentesque et pulvinar enim. Quisque at tempor
+                            ligula
+                        </p>
+                        <p>
+                            Natus error sit voluptatem accusantium
+                            doloremque
+                        </p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <script src="js/index.js"></script>
-    </body>
+            <div class="very-last">
+                <small class="copy">© Bootstrap Template 2017 All right reserved. Template
+                    By
+                    <a href="https://webthemez.com/free-bootstrap-templates/">WebThemez</a>
+                </small>
+
+                <div class="social">
+                    <a href="">
+                        <i class="fab fa-facebook-f soc-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-twitter soc-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-linkedin-in soc-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-pinterest-p soc-icon"></i>
+                    </a>
+                    <a href="">
+                        <i class="fab fa-google-plus-g soc-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
 </html>
-
 
 <!-- https://webthemez.com/demo/rockon-free-music-bootstrap-web-template/
 
