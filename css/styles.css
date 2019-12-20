@@ -450,12 +450,14 @@ footer h3 {
 }
 
 @media only screen and (max-width: 500px) {
-	.header {
-		font-size: 0.8em;
+	header {
+		font-size: 0.5em;
+		height: 2.5em;
 	}
 
 	nav {
 		font-size: 0.5em;
+		height: 3em;
 	}
 
 	.hero {
@@ -512,6 +514,10 @@ footer h3 {
 		width: 90%;
 	}
 
+	.grid-left ul {
+		padding-left: 0;
+	}
+
 	.grid-right {
 		width: 90vw;
 	}
@@ -555,9 +561,8 @@ footer h3 {
 	}
 	.menu {
 		display: flex;
-		flex-direction: column;
 		position: absolute;
-		right: -200px;
+		right: -60em;
 		background-color: white;
 		margin: 0;
 		padding: 0;
@@ -568,7 +573,7 @@ footer h3 {
 		display: flex;
 		flex-direction: column;
 		position: absolute;
-		top: 55px;
+		top: 4.5em;
 		right: 0;
 		margin: 0;
 		padding: 0;
