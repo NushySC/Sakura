@@ -20,7 +20,7 @@ body {
 /** === HEADER ===*/
 
 header {
-	background-color: #386FA4;
+	background-color: #386fa4;
 	color: white;
 	font-size: 0.7em;
 	padding: 0.5em;
@@ -70,13 +70,12 @@ a:active {
 }
 
 .menu a:hover {
-	color: #386FA4;
+	color: #386fa4;
 }
 
 a {
 	text-decoration: none;
 }
-
 
 .logo {
 	height: 2.5em;
@@ -111,9 +110,8 @@ a {
 }
 
 .dropdown-content a:hover {
-	background-color: #f1f1f1
+	background-color: #f1f1f1;
 }
-
 
 .dropdown:hover .dropdown-content {
 	display: block;
@@ -124,16 +122,19 @@ a {
 	background-color: transparent;
 }
 
-
-
+.toggle {
+	display: none;
+}
 
 /** === HERO ===*/
 
 .hero {
 	height: 400px;
-	background-image: linear-gradient(to bottom,
+	background-image: linear-gradient(
+			to bottom,
 			#6261694d,
-			rgba(19, 20, 27, 0.521)),
+			rgba(19, 20, 27, 0.521)
+		),
 		url('../img/slide-one.jpg');
 	background-size: cover;
 	background-position: center center;
@@ -168,7 +169,7 @@ a {
 }
 
 .business {
-	background-color: #386FA4;
+	background-color: #386fa4;
 	padding: 3em 1.5em;
 }
 
@@ -189,7 +190,7 @@ a {
 	background-color: #fdd428;
 	padding: 0.8em 1.2em;
 	border: none;
-	color: #386FA4;
+	color: #386fa4;
 	width: 10em;
 	height: 3em;
 	margin: 2em 1em;
@@ -202,7 +203,7 @@ a {
 }
 
 .services {
-	color: #386FA4;
+	color: #386fa4;
 	text-align: center;
 }
 
@@ -229,7 +230,7 @@ ul {
 	height: 2.6em;
 	text-align: center;
 	line-height: 2.6em;
-	background: #386FA4;
+	background: #386fa4;
 	color: gold;
 	border-radius: 50%;
 }
@@ -249,7 +250,7 @@ ul {
 }
 
 .organization h2 {
-	color: #386FA4;
+	color: #386fa4;
 }
 
 .grids {
@@ -260,7 +261,7 @@ ul {
 
 .grids i {
 	margin-right: 1em;
-	color: #386FA4;
+	color: #386fa4;
 }
 
 .grid-left {
@@ -301,11 +302,10 @@ ul {
 	font-size: 0.8em;
 	text-align: justify;
 	color: #888888;
-
 }
 
 .oneOfThree h2 {
-	color: #386FA4;
+	color: #386fa4;
 	text-align: center;
 }
 
@@ -324,7 +324,7 @@ ul {
 }
 
 .avatar-text h4 {
-	color: #386FA4;
+	color: #386fa4;
 	font-size: 1.6em;
 	font-weight: 400;
 	margin-bottom: 0.5em;
@@ -333,7 +333,7 @@ ul {
 .avatar-text p {
 	color: gray;
 	font-size: 1.2em;
-	margin-top: .2em;
+	margin-top: 0.2em;
 }
 
 .testimonial {
@@ -352,7 +352,6 @@ ul {
 	border-color: gray #fff;
 }
 
-
 .collapsible {
 	background-color: white;
 	color: grey;
@@ -365,7 +364,7 @@ ul {
 	font-size: 1em;
 	font-weight: 700;
 	box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.329);
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 }
 
 .active,
@@ -385,7 +384,7 @@ ul {
 /** === FOOTER ===*/
 
 footer {
-	background-color: #386FA4;
+	background-color: #386fa4;
 	height: auto;
 	color: #ffffffe5;
 	padding: 2em;
@@ -428,16 +427,13 @@ footer h3 {
 	align-items: center;
 }
 
-
 @media only screen and (max-width: 930px) {
-
 	.grids {
 		flex-direction: column;
 	}
 
 	.grid-left {
 		width: 90%;
-
 	}
 
 	.list-org {
@@ -451,22 +447,22 @@ footer h3 {
 	.oneOfThree {
 		width: 90%;
 	}
-
 }
 
 @media only screen and (max-width: 500px) {
-	.header {
-		font-size: 0.8em;
+	header {
+		font-size: 0.5em;
+		height: 2.5em;
 	}
 
 	nav {
 		font-size: 0.5em;
+		height: 3em;
 	}
 
 	.hero {
 		height: 40vh;
 	}
-
 
 	.list-org {
 		margin: 2em 1em 1em 1em;
@@ -518,6 +514,10 @@ footer h3 {
 		width: 90%;
 	}
 
+	.grid-left ul {
+		padding-left: 0;
+	}
+
 	.grid-right {
 		width: 90vw;
 	}
@@ -549,7 +549,44 @@ footer h3 {
 	}
 
 	.soc-icon {
-		margin: 1em .2em;
+		margin: 1em 0.2em;
 	}
 
+	.toggle {
+		display: block;
+		cursor: pointer;
+	}
+	.navigation {
+		height: auto;
+	}
+	.menu {
+		display: flex;
+		position: absolute;
+		right: -60em;
+		background-color: white;
+		margin: 0;
+		padding: 0;
+		transition: all 1s ease;
+	}
+
+	.menu.show {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+		margin: 0;
+		padding: 0;
+	}
+
+	.menu.show li {
+		padding: 10px 30px;
+		background-color: white;
+	}
+
+	.menu.show li:hover {
+		padding: 10px 30px;
+		background-color: #386fa4;
+		color: white;
+	}
 }
