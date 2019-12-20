@@ -438,6 +438,7 @@ footer h3 {
 
 	.list-org {
 		margin: 2em;
+		
 	}
 
 	.tres-flex {
@@ -465,7 +466,8 @@ footer h3 {
 	}
 
 	.list-org {
-		margin: 2em 1em 1em 1em;
+		margin: 2em 0em 1em 0em;
+		font-size: .8em;
 	}
 
 	.hero-title h1 {
